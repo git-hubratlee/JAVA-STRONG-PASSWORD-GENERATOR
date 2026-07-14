@@ -1,4 +1,4 @@
-# Java Password Generator
+# JAVA STRONG PASSWORD GENERATOR
 
 A simple, console-based utility built in Java that generates random, secure passwords based on a length specified by the user.
 
