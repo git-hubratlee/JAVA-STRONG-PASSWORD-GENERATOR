@@ -1,6 +1,13 @@
-# J-Entropy: Linear Iterative Character Selection Engine
+# Java Password Generator
 
-A high-performance, non-deterministic string generation engine leveraging linear character iteration to maximize entropy and output cryptographically secure tokens.
+A simple, console-based utility built in Java that generates random, secure passwords based on a length specified by the user.
 
-## 🚀 How It Works
-The engine iterates through a predefined, high-entropy character pool containing alphanumeric characters and special symbols to dynamically construct secure, randomized strings based on user-defined length constraints.
+## How It Works
+* **Input Parsing:** Uses java.util.Scanner to accept a custom password length from the user.
+* **Character Selection:** Pulls from a defined pool of uppercase letters, lowercase letters, numbers, and special symbols to ensure complexity.
+* **Randomized Iteration:** Uses java.util.Random to select unique index positions from the pool and prints out the characters sequentially.
+
+## Tech Stack and Concepts
+* **Language:** Java
+* **Core APIs:** Scanner (for user input tracking) and Random (for index selection).
+* **String Manipulation:** Utilizes charAt() to isolate and print targeted indexes from a comprehensive character array.
